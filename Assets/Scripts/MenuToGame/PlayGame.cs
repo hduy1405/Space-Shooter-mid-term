@@ -7,4 +7,8 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("BattleScene");
     }
+    public void OnMainMenuButtonClicked()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 }
